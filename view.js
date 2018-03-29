@@ -1,10 +1,10 @@
 'use strict'
-    
-function renderQuestions(index) {    
-    cleanScreen(); 
-    renderStats();    
 
-    $(".js-row").prepend( 
+function renderQuestions(index) {
+    cleanScreen();
+    renderStats();
+
+    $(".js-row").prepend(
         `               
         <div class="question">
             <h3>${DATA[index].question}</h3>                
@@ -34,8 +34,8 @@ function renderQuestions(index) {
         <button type="submit" class="submit-btn">
             Submit
         </button>                                 
-        `           
-    ); 
+        `
+    );
 }
 
 function renderCorrectAnswer() {
@@ -46,7 +46,7 @@ function renderCorrectAnswer() {
         `
         <h2>Correct !</h2>
         `
-    );  
+    );
 
     $(".js-form").append(
         `           
@@ -57,7 +57,7 @@ function renderCorrectAnswer() {
         `
     );
 
-    
+
 }
 
 function renderWrongAnswer() {
@@ -68,8 +68,8 @@ function renderWrongAnswer() {
     $(".js-row").prepend(
         `
         <h2>Sorry. The correct answer is: ${answer}</h2>
-        `    
-    );    
+        `
+    );
 
     $(".js-form").append(
         `
@@ -78,29 +78,29 @@ function renderWrongAnswer() {
           Next >>
         </button>
         `
-    );        
+    );
 }
 
 function renderFeedback() {
-    cleanScreen();   
+    cleanScreen();
     renderStats();
 
-    if (STATS.correct >= 7){
+    if (STATS.correct >= 7) {
         $(".js-row").prepend(
             `
             <h2>YOU ARE A HUGE FAN !</h2>
             <img class="answerImg" src="https://image.ibb.co/ftwysc/00_STARKSok_1_1.jpg" alt="Stark kids smiling">        
-            `    
+            `
         );
-    }   else {
-            $(".js-row").prepend(
-                `
+    } else {
+        $(".js-row").prepend(
+            `
                 <h2>YOU ARE NOT A FAN YET !</h2>
                 <img class="answerImg" src="https://image.ibb.co/nLgWCc/00_NEDok_1.jpg" alt="Ned with not a good face">   
                 
-                `    
-            );
-        }    
+                `
+        );
+    }
 
     $(".js-form").append(
         `        
@@ -112,7 +112,7 @@ function renderFeedback() {
 
 }
 
-function renderStats(){
+function renderStats() {
     $(".js-header").prepend(
         `
         <div class="row">
@@ -132,8 +132,8 @@ function renderStats(){
     );
 }
 
-function cleanScreen(){
-    $(".js-header").empty();   
-    $(".js-row").empty();   
-    $(".js-form").empty();  
+function cleanScreen() {
+    $(".js-header").empty();
+    $(".js-row").empty();
+    $(".js-form").empty();
 }

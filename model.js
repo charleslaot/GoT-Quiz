@@ -1,7 +1,6 @@
 'use strict'
 
-const DATA = [
-    {                   
+const DATA = [{
         question: "Game Of Thrones is based on a series of novels which name is: ",
         optionA: "Game Of Thrones",
         optionB: "A Song Of Ice and Fire",
@@ -10,7 +9,7 @@ const DATA = [
         optionE: "The Accursed Kings",
         correctAnswer: "A Song Of Ice and Fire"
     },
-    {                   
+    {
         question: "The phrase &quotThat's what I do, I drink and I know things&quot it's credited to: ",
         optionA: "Cercei Lannister",
         optionB: "Tywin Lannister",
@@ -19,7 +18,7 @@ const DATA = [
         optionE: "Oberyn Martell",
         correctAnswer: "Tyrion Lannister"
     },
-    {                   
+    {
         question: "By the end of Season Seven how many direwolves are still alive: ",
         optionA: "Two",
         optionB: "Three",
@@ -28,7 +27,7 @@ const DATA = [
         optionE: "Six",
         correctAnswer: "Two"
     },
-    {                   
+    {
         question: "Which TV chain holds the copyright of GoT: ",
         optionA: "FOX",
         optionB: "AMC",
@@ -37,16 +36,16 @@ const DATA = [
         optionE: "TNT",
         correctAnswer: "HBO"
     },
-    {                   
-        question: "How many children Eddard &quotNed&quot Stark had: " ,
+    {
+        question: "How many children Eddard &quotNed&quot Stark had: ",
         optionA: "Three",
         optionB: "Four",
         optionC: "Four and a half",
         optionD: "Five",
-        optionE: "Six",        
+        optionE: "Six",
         correctAnswer: "Five"
     },
-    {                   
+    {
         question: "GoT is the most Emmy award winning TV show in the history of Television with:  ",
         optionA: "12 Emmys",
         optionB: "38 Emmys",
@@ -55,7 +54,7 @@ const DATA = [
         optionE: "51 Emmys",
         correctAnswer: "38 Emmys"
     },
-    {                   
+    {
         question: "Who composed GoT Main Theme song: ",
         optionA: "Hans Zimmer",
         optionB: "Vangelis",
@@ -64,7 +63,7 @@ const DATA = [
         optionE: "Ramin Djawadi",
         correctAnswer: "Ramin Djawadi"
     },
-    {                   
+    {
         question: "In the GoT saga &quotKhaleesi&quot means: ",
         optionA: "Mother of Dragons",
         optionB: "Queen",
@@ -73,7 +72,7 @@ const DATA = [
         optionE: "Moon of my Life",
         correctAnswer: "Khal's Spouse"
     },
-    {                   
+    {
         question: "How tall is &quotThe Wall&quot: ",
         optionA: "700 Feet",
         optionB: "800 Feet",
@@ -82,7 +81,7 @@ const DATA = [
         optionE: "Nobody knows",
         correctAnswer: "700 Feet"
     },
-    {                   
+    {
         question: "Which of Daenery's dragons are the largest: ",
         optionA: "Rhaegal",
         optionB: "Drogon",
