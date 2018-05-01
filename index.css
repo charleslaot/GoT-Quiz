@@ -3,14 +3,9 @@ body {
     background-size: cover;
 }
 
-@font-face {
-    font-family: 'got';
-    src: url(got.ttf) format("truetype");
-}
-
 body * {
     box-sizing: border-box;
-    font-family: 'got';
+    font-family: 'roboto';
     letter-spacing: 2px;
 }
 
