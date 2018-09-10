@@ -1,13 +1,13 @@
 # Game of Thrones Quiz App
 
-Technologies :
+## Technologies :
 
 HTML
 CSS
 JavaScript
 JQuery
 
-Live Demo
+## Live Demo
 
 https://krloslao.github.io/GoT-Quiz/
 
