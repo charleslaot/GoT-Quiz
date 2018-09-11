@@ -4,7 +4,7 @@ function handleStartQuiz() {
     $(".submit-btn").click(function (event) {
         event.preventDefault();
         renderQuestions(STATS.questionIndex);
-    })
+    });
 }
 
 function handleSubmitAnswer() {
@@ -20,7 +20,7 @@ function handleSubmitAnswer() {
             STATS.incorrect++;
             renderWrongAnswer();
         }
-    })
+    });
 }
 
 function handleNextQuestion() {
@@ -46,7 +46,7 @@ function handleRestartQuiz() {
 function handleListItemClick() {
     $('.js-form').on('click', 'li', function (event) {
         $(this).find('input').prop('checked', 'true');
-    })
+    });
 }
 
 function handleQuizApp() {

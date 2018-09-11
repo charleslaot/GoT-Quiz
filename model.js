@@ -90,7 +90,6 @@ const DATA = [{
         optionE: "They all have the same age",
         correctAnswer: "Drogon"
     }
-
 ]
 
 const STATS = {

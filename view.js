@@ -56,8 +56,6 @@ function renderCorrectAnswer() {
         </button>
         `
     );
-
-
 }
 
 function renderWrongAnswer() {
@@ -109,7 +107,6 @@ function renderFeedback() {
         </button>
         `
     );
-
 }
 
 function renderStats() {
