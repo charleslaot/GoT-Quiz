@@ -9,6 +9,6 @@
 
 ## Live Demo
 
-[Live Demo] (https://krloslao.github.io/GoT-Quiz/)
+[Live Demo](https://krloslao.github.io/GoT-Quiz/)
 
 
