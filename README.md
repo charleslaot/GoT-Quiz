@@ -2,13 +2,13 @@
 
 ## Technologies :
 
-HTML
-CSS
-JavaScript
-JQuery
+- HTML
+- CSS
+- JavaScript
+- JQuery
 
 ## Live Demo
 
-https://krloslao.github.io/GoT-Quiz/
+[Live Demo] (https://krloslao.github.io/GoT-Quiz/)
 
 
