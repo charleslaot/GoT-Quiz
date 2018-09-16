@@ -15,8 +15,7 @@ h3,
 h4 {
     text-shadow: 3px 3px black;
     text-align: center;
-    margin: 5px 0 !important;
-    /* Override normalize.css value */
+    margin: 5px 0 !important;    
 }
 
 h3 {
@@ -44,8 +43,7 @@ button {
     display: block;
     width: 150px;
     height: 35px;
-    margin: auto !important;
-    /* Override normalize.css value */
+    margin: auto !important;    
     background: rgba(255, 165, 119, 0.3);
     border: 0;
     color: orange;
