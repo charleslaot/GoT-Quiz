@@ -1,5 +1,7 @@
 # Game of Thrones Quiz App
 
+Challenge yourself and you friends to test your trivia knowledge about the most awarded TV Show in history. Let's begin !
+
 ## Technologies :
 
 - HTML
