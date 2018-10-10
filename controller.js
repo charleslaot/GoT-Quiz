@@ -26,7 +26,7 @@ function handleSubmitAnswer() {
 function handleNextQuestion() {
     $("form").on('click', '.js-next-btn', function (event) {
         event.preventDefault();
-
+        
         if (STATS.questionIndex + 1 === DATA.length) {
             renderFeedback();
         } else {
