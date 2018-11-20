@@ -15,19 +15,19 @@ function renderQuestions(index) {
     $(".js-form").prepend(
         `   
         <ul class="answersList">
-            <li><input type="radio" name="choices" id="choiceOptionA" value="${DATA[index].optionA}" required>
+            <li><input class="form-radio" type="radio" name="choices" id="choiceOptionA" value="${DATA[index].optionA}" required>
                 <label for="choiceOptionA">${DATA[index].optionA}</label>
             </li>
-            <li><input type="radio" name="choices" id="choiceOptionB" value="${DATA[index].optionB}">
+            <li><input class="form-radio" type="radio" name="choices" id="choiceOptionB" value="${DATA[index].optionB}">
                 <label for="choiceOptionB">${DATA[index].optionB}</label>
             </li>
-            <li><input type="radio" name="choices" id="choiceOptionC" value="${DATA[index].optionC}">
+            <li><input class="form-radio" type="radio" name="choices" id="choiceOptionC" value="${DATA[index].optionC}">
                 <label for="choiceOptionC">${DATA[index].optionC}</label>
             </li>
-            <li><input type="radio" name="choices" id="choiceOptionD" value="${DATA[index].optionD}">
+            <li><input class="form-radio" type="radio" name="choices" id="choiceOptionD" value="${DATA[index].optionD}">
                 <label for="choiceOptionD">${DATA[index].optionD}</label>
             </li>
-            <li><input type="radio" name="choices" id="choiceOptionE" value="${DATA[index].optionE}">
+            <li><input class="form-radio" type="radio" name="choices" id="choiceOptionE" value="${DATA[index].optionE}">
                 <label for="choiceOptionE">${DATA[index].optionE}</label>
             </li>
         </ul>                
@@ -52,7 +52,7 @@ function renderCorrectAnswer() {
         `           
         <img class="answerImg" src="https://image.ibb.co/mpoEyH/00_Tyrion_OK.jpg" alt="Tyrion Lannister on Correct Answer">        
         <button type="submit" class="submit-btn js-next-btn">
-           Next >>
+           Next  >
         </button>
         `
     );
@@ -73,7 +73,7 @@ function renderWrongAnswer() {
         `
         <img class="answerImg" src="https://image.ibb.co/g2XJQx/00_Tyrion_No_OK.jpg" alt="Tyrion Lannister on Wrong Answer">        
         <button type="submit" class="submit-btn js-next-btn">
-          Next >>
+          Next >
         </button>
         `
     );
@@ -102,7 +102,7 @@ function renderFeedback() {
 
     $(".js-form").append(
         `        
-        <button type="submit" class="submit-btn js-again-btn">
+        <button type="submit" class="submit-again-btn js-again-btn">
           Again ?
         </button>
         `
@@ -110,27 +110,27 @@ function renderFeedback() {
 }
 
 function renderStats() {
-    $(".js-header").prepend(
+    $(".js-stats").prepend(
         `
         <div class="row">
-            <div class="col-3 swordLeft">
+        <!--<div class="col-3 swordLeft">
                 <img class="swords" src="https://image.ibb.co/c4dpyH/1sword_NEW.png" alt="Left Sword">
-            </div>
+            </div> -->
             <div class="col-6 stats" style='text-align:center'>                        
                 <p class="js-questionNum">Questions: ${STATS.questionIndex + 1} out of 10</p>
                 <p class="js-scoreCorrect">Correct: ${STATS.correct}</p>
                 <p class="js-scoreIncorrect">Incorrect: ${STATS.incorrect}</p>
             </div>       
-            <div class="col-3 swordRight">
+        <!--<div class="col-3 swordRight">
                 <img class="swords" src="https://image.ibb.co/cBXUFx/swordNEW.png" alt="Right Sword">
-            </div>
+            </div> -->
         </div>
         `
     );
 }
 
 function cleanScreen() {
-    $(".js-header").empty();
+    $(".js-stats").empty();
     $(".js-row").empty();
     $(".js-form").empty();
 }
