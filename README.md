@@ -11,4 +11,4 @@ Challenge yourself and your friends to test your trivia knowledge about the most
 
 ## Live Demo
 
-[Live Demo](https://carlostrujillo90.github.io/Game_of_Thrones_Quiz/)
+[Live Demo](https://gotquiz-embarrased.netlify.app/)
