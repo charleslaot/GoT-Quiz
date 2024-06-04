@@ -50,7 +50,7 @@ function renderCorrectAnswer() {
 
     $(".js-form").append(
         `           
-        <img class="answerImg" src="https://image.ibb.co/mpoEyH/00_Tyrion_OK.jpg" alt="Tyrion Lannister on Correct Answer">        
+        <img class="answerImg" src="./assets/00-Tyrion-OK.webp" alt="Tyrion Lannister on Correct Answer">        
         <button type="submit" class="submit-btn js-next-btn">
            Next  >
         </button>
@@ -71,7 +71,7 @@ function renderWrongAnswer() {
 
     $(".js-form").append(
         `
-        <img class="answerImg" src="https://image.ibb.co/g2XJQx/00_Tyrion_No_OK.jpg" alt="Tyrion Lannister on Wrong Answer">        
+        <img class="answerImg" src="./assets/00-Tyrion-No-OK.webp" alt="Tyrion Lannister on Wrong Answer">        
         <button type="submit" class="submit-btn js-next-btn">
           Next >
         </button>
@@ -87,14 +87,14 @@ function renderFeedback() {
         $(".js-row").prepend(
             `
             <h2>YOU ARE A HUGE FAN !</h2>
-            <img class="answerImg" src="https://image.ibb.co/ftwysc/00_STARKSok_1_1.jpg" alt="Stark kids smiling">        
+            <img class="answerImg" src="./assets/00-STARKSok-1-1.webp" alt="Stark kids smiling">        
             `
         );
     } else {
         $(".js-row").prepend(
             `
                 <h2>YOU ARE NOT A FAN YET !</h2>
-                <img class="answerImg" src="https://image.ibb.co/nLgWCc/00_NEDok_1.jpg" alt="Ned with not a good face">   
+                <img class="answerImg" src="./assets/00-NEDok-1.webp" alt="Ned with not a good face">   
                 
                 `
         );
@@ -112,18 +112,12 @@ function renderFeedback() {
 function renderStats() {
     $(".js-stats").prepend(
         `
-        <div class="row">
-        <!--<div class="col-3 swordLeft">
-                <img class="swords" src="https://image.ibb.co/c4dpyH/1sword_NEW.png" alt="Left Sword">
-            </div> -->
+        <div class="row">        
             <div class="col-6 stats" style='text-align:center'>                        
                 <p class="js-questionNum">Questions: ${STATS.questionIndex + 1} out of 10</p>
                 <p class="js-scoreCorrect">Correct: ${STATS.correct}</p>
                 <p class="js-scoreIncorrect">Incorrect: ${STATS.incorrect}</p>
-            </div>       
-        <!--<div class="col-3 swordRight">
-                <img class="swords" src="https://image.ibb.co/cBXUFx/swordNEW.png" alt="Right Sword">
-            </div> -->
+            </div>               
         </div>
         `
     );
